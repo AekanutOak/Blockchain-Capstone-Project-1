@@ -2,24 +2,5 @@
 <html>
 <head></head>
 <body>
-<h1>Hello
-    <script>
-        // Function to parse query parameters from the URL
-        function getQueryParam(name) {
-          const urlParams = new URLSearchParams(window.location.search);
-          return urlParams.get(name);
-        }
-      
-        // Get the userAddress query parameter from the URL
-        const userAddress = getQueryParam('userAddress');
-      
-        if (userAddress) {
-          // Use the userAddress as needed
-          console.log(`User address: ${userAddress}`);
-        } else {
-          console.error('User address not found in query parameters.');
-        }
-      </script>
-</h1>
 </body>
 </html>
